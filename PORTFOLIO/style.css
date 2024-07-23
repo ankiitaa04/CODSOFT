@@ -1,0 +1,332 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    background-color: rgb(41, 40, 40);
+    color: white;
+
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    font-size: 1.4em;
+    align-items: center;
+}
+.name{
+    padding-left: 40px;
+    padding-right: 20px;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+.tags span{
+    padding: 20px;
+    font-family: system-ui;
+    color: rgb(193, 193, 141);
+}
+.tags span:hover{
+    background-color: rgb(190, 190, 121);
+    color: white;   
+
+}
+.large{
+    font-size: 1.7em;
+    font-family: system-ui;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    color: rgb(190, 190, 121);
+}
+.left{
+    width: 50vw;
+    height: 300px;
+    background-color: black;
+    position: relative;
+    bottom: 100px;
+    -webkit-animation: squareToCircle 3s 1s infinite alternate;
+}
+@-webkit-keyframes squareToCircle {
+    0% {
+      border-radius: 0 0 0 0;
+      background: rgb(78, 77, 77);
+      transform: rotate(0deg);
+    }
+    25% {
+      
+      background: rgb(73, 71, 71);
+      transform: rotate(45deg);
+    }
+}
+.firstpagecontent p{
+padding: 50px;
+position: relative;
+z-index: 1;
+padding-right: 600px;
+font-size: 1.4em;   
+top: 179px;
+padding-left: 76px;   
+}
+.button{
+    position: relative;
+    bottom: 80px;
+    left: 184px;
+}
+.button button{
+    padding: 20px;
+    font-size: 1.2em;
+    background-color: rgb(190, 190, 121);
+    border-radius: 13px;
+}
+.img{
+    position: relative;
+    left:1077px;
+    bottom: 440px;
+    
+}
+.img img{
+   position: relative;
+   z-index: 2;
+}
+.yellow{
+    width: 300px;
+    background-color: rgb(190, 190, 121);
+    height: 400px;
+    position: relative;
+    bottom: 453px;
+    left: 40px;
+}
+.heading { 
+    position: relative;
+    bottom: 740px;
+    overflow: hidden; 
+    font-family: system-ui;
+    background-color: rgb(190, 190, 121);
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    z-index: 2;
+} 
+.black{
+    height: 40px;
+    width: 800px;
+    background-color: black;
+    position: relative;
+    bottom: 750px;
+}
+.heading h1{ 
+    color: rgb(55, 54, 54);
+    position: relative;
+    z-index: 2;
+} 
+.black2{
+    height: 40px;
+    width: 800px;
+    background-color: black;
+    position: relative;
+    bottom: 724px;
+    left: 750px; 
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon img{
+    width: 250px;
+    position: relative;
+    bottom: 650px;
+}
+
+.description{
+    display: flex;
+    position: relative;
+    bottom: 620px;
+    gap: 300px;
+    margin-left: 123px;
+    font-family: system-ui;
+    font-size: 1.3em;
+}
+.thirdpage .black{
+
+        height: 40px;
+        width: 800px;
+        background-color: black;
+        position: relative;
+        bottom: 474px;
+    
+}
+.thirdpage img{
+    width: 350px;
+}
+.thirdpage .heading h1{ 
+    color: rgb(55, 54, 54);
+    position: relative;
+    z-index: 2;
+} 
+.thirdpage .black2{
+    height: 40px;
+    width: 800px;
+    background-color: black;
+    position: relative;
+    bottom: 681px;
+    left: 750px; 
+}
+.thirdpage .heading{
+    bottom: 583px;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.amazon{
+    position: relative;
+    display: flex;
+    left: 100px;
+    bottom: 500px;
+    
+}
+.amazon img{
+    width: 600px;
+    height: fit-content;
+    
+}
+.netflix{
+    display: flex;
+   position: relative;
+   left: 53%;
+   bottom: 500px;
+}
+.netflix img{
+    width: 600px;
+}
+.dictionary img{
+    width: 600px;
+}
+.dictionary{
+    position: relative;
+    left: 100px;
+    display: flex;
+    bottom: 500px;
+}
+.describe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80px;
+    width: 400px;
+    background-color:rgb(190, 190, 121);
+    color: rgb(15, 15, 15);
+    padding: 50px;
+    border-radius: 38px;
+    box-shadow: 3px 3px 15px 15px rgb(11, 11, 11);
+}
+.describe:hover{
+  opacity: 0.6;
+}
+.amazon .describe{
+    position: relative;
+    right: -190px;
+}
+.netflix .describe{
+    position: relative;
+    right: 1269px;
+    top: 30px;
+}
+.dictionary .describe{position: relative;
+    right: -180px;
+top: 30px;}
+
+.fourthpage a{ 
+    font-size: 1.3em; 
+    font-family: system-ui;
+    color: antiquewhite;
+    
+}
+a:hover{
+    color: red;
+}
+.fourth{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 329px;
+}
+.fourthpage p{
+    font-size: 2em;
+    color:white;
+    padding-bottom: 20px 
+    ;
+}
+.fourthpage i{
+    font-size: 1.7em;
+}
+.icon{
+    padding-top: 20px;
+}
+.icon span{
+    font-size: 1.4em;
+    padding-left: 10px;
+}
+.fourthpage .black{
+    bottom: 432px;
+}
+.fourthpage .heading{
+    bottom: 413px;
+    position: relative;
+}
+.fourthpage .black2{
+    bottom: 392px;
+}
+footer{
+    position: relative;
+    bottom: 300px;
+    background-color: rgb(64, 62, 62);
+    color: white;
+    height: 400px;
+}
+footer .icons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 65px;
+    padding-top: 60px;
+    position: relative;
+    right: 25px;
+
+}
+.icons i{
+    
+    font-size: 2em;
+}
+.contact{
+    font-size: 1.2em;
+    font-family: system-ui;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+.contact i{
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.copyright {
+    font-size: 1.3em;
+    color:rgb(190, 190, 121);
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;  
+}
+.copyright i{
+    padding-right: 5px;
+    padding-top: 3px;
+}
+
